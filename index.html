@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Title</title>
+</head>
+<body>
+<div class="container">
+    <div class="property-item">
+        <div class="property-info">
+            <div class="name section">
+                <h2>
+                    <img src="img/logo_name.jpg" alt="">
+                    <span class="json name"></span>
+                </h2>
+                <h3 class="json location"></h3>
+            </div>
+            <div class="view section">
+                <div class="img-block"><img src="img/Renaissance_Tower_.jpg" alt=""></div>
+                <div id="map"></div>
+            </div>
+            <div class="details section">
+                <h4>Property details</h4>
+                <div class="details-text">
+                    <div class="details-block">
+                        <table>
+                            <tr>
+                                <td>Property Type:</td>
+                                <td class="json propertyType"></td>
+                            </tr>
+                            <tr>
+                                <td>Total Building Area:</td>
+                                <td class="json totalBuildingArea"></td>
+                            </tr>
+                            <tr>
+                                <td>Tenancy:</td>
+                                <td class="json tenancy"></td>
+                            </tr>
+                            <tr>
+                                <td>No. of Tenant:</td>
+                                <td class="json noOfTenant"></td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="details-block">
+                        <table>
+                            <tr>
+                                <td>Website:</td>
+                                <td class="json website"></td>
+                            </tr>
+                            <tr>
+                                <td>Property Class:</td>
+                                <td class="json propertyClass"></td>
+                            </tr>
+                            <tr>
+                                <td>Year Built:</td>
+                                <td class="json yearBuilt"></td>
+                            </tr>
+                            <tr>
+                                <td>Floors:</td>
+                                <td class="json floors"></td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div class="description section">
+                <span>Description:</span>
+                <p class="json description"></p>
+            </div>
+        </div>
+        <div class="availabilities">
+            <div class="availabilities-title">
+                <span><img src="img/logo_availables_.jpg" alt=""><p class="title">Availabilities</p></span>
+                <span class="counter-block"><span class="counter"></span>records</span>
+            </div>
+            <table>
+                <thead>
+                <tr>
+                    <th>Unit Name/Number</th>
+                    <th>Record Type</th>
+                    <th>Available area</th>
+                </tr>
+                </thead>
+                <tr>
+                    <td class="json unitNameNumber1">1</td>
+                    <td class="json recordType1">1</td>
+                    <td class="json availableArea1">1</td>
+                </tr>
+                <tr>
+                    <td class="json unitNameNumber2">2</td>
+                    <td class="json recordType2">2</td>
+                    <td class="json availableArea2">2</td>
+                </tr>
+                <tr>
+                    <td class="json unitNameNumber3">3</td>
+                    <td class="json recordType3">3</td>
+                    <td class="json availableArea3">3</td>
+                </tr>
+                <tr>
+                    <td class="json unitNameNumber4">4</td>
+                    <td class="json recordType4">4</td>
+                    <td class="json availableArea4">4</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+<script src="js/app.js"></script>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyATxoxMyuw3fNCEe24RP7fNZh3qCjWNNP8&callback=initMap"></script>
+</body>
+</html>

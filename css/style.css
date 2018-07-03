@@ -1,0 +1,132 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    height: 100%;
+    margin: 0;
+    font: 16px "Open Sans", sans-serif;
+}
+img{
+    height: 100%;
+}
+h1, h2, h3, h4, h5, h6, p{
+    margin: 0;
+}
+h3{
+    margin-top: 10px;
+    font-weight: 300;
+}
+.name h2{
+    display: flex;
+    align-items: center;
+}
+.name h2 span{
+    margin-left: 30px;
+}
+h4, .title{
+    text-transform: uppercase;
+    color: #5d6e70;
+    font-weight: bold;
+}
+.details h4{
+    text-align: center;
+}
+.container{
+    margin: 0 auto;
+    height: 100vh;
+    width: 650px;
+}
+.section{
+    padding: 15px;
+}
+.section + .section{
+    border-top: 2px solid #f3f3f3;
+}
+.property-item{
+    margin: 25px 0;
+}
+.property-info, .availabilities table{
+    border: 2px solid #f3f3f3;
+    border-radius: 5px;
+}
+.img-block, #map{
+    overflow: hidden;
+    display: inline-block;
+    width: 100%;
+    max-width: 300px;
+    max-height: 300px;
+}
+.view.section{
+    display: flex;
+    justify-content: space-between;
+}
+.view.section, .details.section, thead{
+    background-color: #f9fbfb;
+    color: #5d6e70;
+}
+.details-text{
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+.details-block{
+    width: 100%;
+    max-width: 500px;
+}
+table{
+    width: 100%;
+    font-size: 14px;
+    border-collapse: collapse;
+}
+.details-block table td:first-child{
+    min-width: 150px;
+}
+.details-block table td:last-child{
+    width: 100%;
+}
+.details-block td:first-child{
+    color: #5d6e70;
+    font-weight: bold;
+}
+.description span{
+    color: #5d6e70;
+    font-weight: bold;
+}
+.description p{
+    display: inline;
+}
+.availabilities{
+    margin-top: 30px;
+}
+.availabilities-title{
+    display: flex;
+    justify-content: space-between;
+}
+.availabilities-title span{
+    display: flex;
+    align-items: center;
+}
+.availabilities-title p{
+    margin-left: 15px;
+}
+.availabilities table{
+    font-size: 12px;
+    margin-top: 15px;
+}
+.availabilities table th, td{
+    text-align: left;
+    padding: 5px 0 5px 15px;
+}
+.availabilities table tr{
+    border-top: 2px solid #f3f3f3;
+}
+.counter-block{
+    color: #5d6e70;
+    font-size: 12px;
+}
+.counter{
+    margin-right: 5px;
+}
+.website{
+    color: #7c97bd;
+}
